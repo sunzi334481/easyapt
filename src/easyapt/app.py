@@ -23,7 +23,7 @@ APP_ID = "easyapt"
 VERSION = "1.1.3"
 APP_DESC = "新手友好的 apt 图形界面包管理器"
 APP_AUTHOR = "sunny334481"
-APP_URL = "https://github.com/sunny334481/easyapt"  # 项目主页（筹备中）
+APP_URL = "https://github.com/sunzi334481/easyapt"
 
 
 class MainWindow(QMainWindow):

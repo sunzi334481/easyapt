@@ -19,7 +19,7 @@
 
 ## 安装
 
-到 [Releases](https://github.com/sunny334481/easyapt/releases) 下载最新 `.deb`，然后：
+到 [Releases](https://github.com/sunzi334481/easyapt/releases) 下载最新 `.deb`，然后：
 
 ```bash
 sudo apt install ./easyapt_1.1.3_all.deb
@@ -39,7 +39,7 @@ sudo apt purge easyapt       # 连同配置
 ## 从源码构建
 
 ```bash
-git clone https://github.com/sunny334481/easyapt.git
+git clone https://github.com/sunzi334481/easyapt.git
 cd easyapt
 bash build-deb.sh        # 产物在 dist/
 ```
