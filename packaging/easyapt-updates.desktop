@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=易装更新检查
+Name[en_US]=EasyApt Update Checker
+Comment=开机自动检查软件更新（易装）
+Comment[en_US]=Check for software updates at login
+Exec=easyapt --check-updates
+Icon=easyapt
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true

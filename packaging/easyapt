@@ -1,0 +1,3 @@
+#!/bin/sh
+# 易装 (easyapt) 启动器
+exec /usr/bin/python3 /usr/lib/easyapt/app.py "$@"

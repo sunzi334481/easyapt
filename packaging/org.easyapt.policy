@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+  <vendor>EasyApt</vendor>
+  <vendor_url>https://example.com/easyapt</vendor_url>
+
+  <action id="org.easyapt.pkexec.helper">
+    <description>易装需要管理员权限来安装或卸载软件</description>
+    <description xml:lang="en">EasyApt needs administrator privileges to manage packages</description>
+    <message>“易装”需要管理员权限以执行软件包操作，请输入密码</message>
+    <message xml:lang="en">EasyApt requires authentication to perform package operations</message>
+    <icon_name>package-x-generic</icon_name>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/easyapt/helper.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">false</annotate>
+  </action>
+</policyconfig>

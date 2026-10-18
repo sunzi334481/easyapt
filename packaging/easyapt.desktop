@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=易装
+Name[en_US]=EasyApt
+Comment=新手友好的软件包管理器（apt 图形界面）
+Comment[en_US]=Beginner-friendly GUI package manager for apt
+Exec=easyapt %f
+Icon=easyapt
+Terminal=false
+Type=Application
+Categories=System;PackageManager;Settings;
+Keywords=apt;package;install;软件;安装;包管理;
+MimeType=application/vnd.debian.binary-package;
+StartupNotify=true
