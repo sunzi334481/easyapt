@@ -69,3 +69,7 @@ build-deb.sh        一键打包脚本
 GPL-3.0+。内置 Symbola 字体 © George Douros，按其许可随包分发。
 
 作者：sunny334481
+
+---
+
+本项目由 Trae AI 生成
